@@ -45,6 +45,30 @@ function myFunction() {
 }
 </script>
 	
+
+<button onclick="getLocation()">Coordinates</button>
+	
+	
+<p id="loc"></p>
+
+<script>
+var x = document.getElementById("loc");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+	</div>
+	
 	
 
 <h1>How Fishing Is Polluting Our Oceans</h1>
