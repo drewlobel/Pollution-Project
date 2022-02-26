@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+
 	<title>Pollution Project</title>
 	
 	 <link rel="icon" type="image/x-icon" href="Ocean.jpg">
@@ -11,7 +12,13 @@
 
 <style>
 .clock{
-  font-size: 50px;
+  font-size: 40px;
+  text-align: right;
+}
+</style>
+
+<style>
+.center {
   text-align: center;
 }
 </style>
@@ -40,7 +47,6 @@
 
 </head>
 <body onload="startTime()">
-<div id="graph">
 
 <button onclick="myFunction()">Toggle Dark Mode</button>
 <script>
@@ -75,10 +81,11 @@ function showPosition(position) {
 }
 </script>
 	</div>
-<div id="clock"></d>
+<div class="clock">
+
 <div id="txt"></div>
 
-	<script>
+<script>
 function startTime() {
   const today = new Date();
   let h = today.getHours();
@@ -96,9 +103,9 @@ function checkTime(i) {
 }
 </script>
 </div>
-</div>	
 
-<h1>How Fishing Is Polluting Our Oceans</h1>
+
+<h1 class="center">How Fishing Is Polluting Our Oceans</h1>
 
 
 <p class="graph">In excess of 100 million pounds of plastic from modern fishing gear contaminate the seas every year-undermining marine life. ...
@@ -112,8 +119,9 @@ appearing on far off Pacific Islands, snared on coral reefs and littering the re
 
 </p>
 
-
+<div class="center">
 <img src="Polution Graphic.jpeg" hight= "700" width="1000"</img>
+</div>
 <p  class="sourse">Sourse:<br>
 <a href= "https://www.nature.org/en-us/newsroom/ca-ocean-plastic/#:~:text=More%20than%20100%20million%20pounds
 ,each%20year%E2%80%94threatening%20marine%20life.&text=An%20estimated%204.6%20million%20fishing,gear%20across%20every%20ocean%20basin." target="_blank"> 
