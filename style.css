@@ -1,0 +1,30 @@
+
+	body {
+	background-color:#6DABAD;
+}
+
+
+.clock {
+  font-size: 40px;
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.sourse {
+  font-family: Times New Roman, sans-serif;
+  font-size: 20px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.graph {
+	font-size: 30px;
+	text-align: center;
+}
+
